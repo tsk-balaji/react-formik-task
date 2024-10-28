@@ -14,6 +14,8 @@ Requirements:
 The Home Screen Dashboard has SideBar with Links to Book Data & Author Data Pages.
 The Cards on the Right Side has the No of Books and Authors Data displayed inside.
 
+---
+
 > ## Book Data
 
 &nbsp;
@@ -40,6 +42,10 @@ When Clicked on Delete the respective data will be deleted from the table.
 &nbsp;
 
 ![DeleteBook](/public/Delete%20Book.png)
+
+&nbsp;
+
+---
 
 > ## Author Data
 
@@ -68,3 +74,5 @@ When Clicked on Delete the respective data will be deleted from the table.
 &nbsp;
 
 ![DeleteAuthor](/public/Delete%20Book.png)
+
+---
