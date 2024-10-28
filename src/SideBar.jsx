@@ -34,12 +34,7 @@ const Sidebar = () => {
                 <Link to="/BookData" className="nav-link text-white">
                   <i className="mdi mdi-lead-pencil"></i> Book Data
                 </Link>
-                <Link to="/AuthorData" className="nav-link text-white">
-                  <i className="mdi mdi-table"></i> Author Data
-                  <button className="btn btn-dark btn-sm float-right">
-                    <i className="mdi mdi-plus"></i>
-                  </button>
-                </Link>
+                <Link to="/AuthorData" className="nav-link text-white"></Link>
               </div>
             )}
           </li>
