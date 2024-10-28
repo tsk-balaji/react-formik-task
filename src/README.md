@@ -1,33 +1,70 @@
-# [Simple Admin - Template Admin](https://machmudeffendi.github.io/Simple-Admin/)
-[Simple Admin](https://machmudeffendi.github.io/Simple-Admin/) is a multipurpose template created by [Machmud Effendi](http://edof.cf).
+# Formik React Task
 
-## Preview
+Requirements:
 
-[![Preview](https://machmudeffendi.github.io/Simple-Admin/assets/img/simple-admin-gh.png)](https://machmudeffendi.github.io/Simple-Admin/)
+1. Users should be able to add, edit, and delete book records. Each book record should contain the title, author, ISBN number, and publication date.
+2. Users should be able to add, edit, and delete author records. Each author record should contain the author's name, birth date, and a short biography.
+3. All forms used in the dashboard should be validated using Formik.
+4. The dashboard should have a clean and responsive design that is easy to use and navigate.
 
-**[View Live Preview](https://machmudeffendi.github.io/Simple-Admin/)**
+> ## DASHBOARD
 
-## Status
+![HOME](/public/Home%20&%20Side%20Bar.png)
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/machmudeffendi/Simple-Admin/blob/master/LICENSE)
+The Home Screen Dashboard has SideBar with Links to Book Data & Author Data Pages.
+The Cards on the Right Side has the No of Books and Authors Data displayed inside.
 
-## Download and Installation
+> ## Book Data
 
-To begin using this template, choose one of the following options to get started:
-* Clone the repo: `git clone https://github.com/machmudeffendi/Simple-Admin.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/machmudeffendi/Simple-Admin.git)
+&nbsp;
 
-## About
+![AddBook](/public/Book%20Data%20Added%20Successfully.png)
 
-Simple Admin is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Simple Admin are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+Fill the Book Details in the form created via Formik and click on Submit. The Book Data will be added to the table.
 
-Simple Admin was created by and is maintained by **[Machmud Effendi](https://www.instagram.com/machmudfends)**, Owner of [EDOF](http://edof.cf/).
+Please meet the requirements while filling the form, else Error would be populated below the field like shown below.
 
-* https://www.instagram.com/machmudfends
-* https://twitter.com/machmudeffendi0
-* https://github.com/machmudeffendi
+![BookErrors](/public/Book%20Errors.png)
 
-## Copyright and License
+### Update Book
 
-Copyright 2019 Machmud Effendi. Code released under the [MIT](https://github.com/machmudeffendi/Simple-Admin/blob/master/LICENSE) license.
+&nbsp;
+When Clicked on Update the Respective Data will be shown in the form and once changed click on the Update.
 
+![UpdateBook](/public/Update%20Book.png)
+
+### Delete Book
+
+When Clicked on Delete the respective data will be deleted from the table.
+
+&nbsp;
+
+![DeleteBook](/public/Delete%20Book.png)
+
+> ## Author Data
+
+&nbsp;
+
+![AddAuthor](/public/Author%20Data%20Added%20Succesfully..png)
+
+Fill the Author Details in the form created via Formik and click on Submit. The Author Data will be added to the table.
+
+Please meet the requirements while filling the form, else Error would be populated below the field like shown below.
+
+![AuthorError](/public/Author%20Errors.png)
+
+### Update Author
+
+When Clicked on Update the Respective Data will be shown in the form and once changed click on the Update.
+
+&nbsp;
+
+![UpdateAuthor](/public/Update%20Author.png)
+
+### Delete Author
+
+When Clicked on Delete the respective data will be deleted from the table.
+
+&nbsp;
+
+![DeleteAuthor](/public/Delete%20Book.png)

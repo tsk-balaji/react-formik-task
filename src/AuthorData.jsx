@@ -142,7 +142,7 @@ export default function AuthorData() {
           <div className="col-lg-7">
             <div className="card shadow p-4 bg-light rounded">
               <h5 className="card-title text-center mb-3">
-                Submitted Author Data
+                Author Data Records
               </h5>
               <div className="table-responsive">
                 <table className="table table-bordered table-hover table-striped">

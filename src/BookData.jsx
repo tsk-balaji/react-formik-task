@@ -147,7 +147,7 @@ export default function BookData() {
             <div className="card shadow p-3 bg-white rounded">
               <div className="card-body">
                 <h5 className="card-title text-center mb-3">
-                  Submitted Book Data
+                  Book Data Records
                 </h5>
 
                 <table className="table table-bordered table-hover table-striped">

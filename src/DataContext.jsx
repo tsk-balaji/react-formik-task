@@ -10,17 +10,17 @@ export const DataProvider = ({ children }) => {
   const defaultAuthors = [
     {
       name: "Author One",
-      dob: "1980-01-01",
+      birthDate: "1980-01-01",
       shortBio: "A brief bio of Author One.",
     },
     {
       name: "Author Two",
-      dob: "1990-05-15",
+      birthDate: "1990-05-15",
       shortBio: "A brief bio of Author Two.",
     },
     {
       name: "Author Three",
-      dob: "2000-10-20",
+      birthDate: "2000-10-20",
       shortBio: "A brief bio of Author Three.",
     },
   ];
