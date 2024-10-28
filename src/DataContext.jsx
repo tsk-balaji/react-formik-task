@@ -13,16 +13,6 @@ export const DataProvider = ({ children }) => {
       birthDate: "1980-01-01",
       shortBio: "A brief bio of Author One.",
     },
-    {
-      name: "Author Two",
-      birthDate: "1990-05-15",
-      shortBio: "A brief bio of Author Two.",
-    },
-    {
-      name: "Author Three",
-      birthDate: "2000-10-20",
-      shortBio: "A brief bio of Author Three.",
-    },
   ];
 
   // Default books
@@ -38,12 +28,6 @@ export const DataProvider = ({ children }) => {
       author: "Author Two",
       isbn: "0987654321",
       publicationDate: "2010-07-20",
-    },
-    {
-      title: "Book Three",
-      author: "Author Three",
-      isbn: "1122334455",
-      publicationDate: "2015-11-30",
     },
   ];
 
